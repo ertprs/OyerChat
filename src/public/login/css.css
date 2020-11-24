@@ -1,0 +1,137 @@
+body {
+    background-color: #e9e5e0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex !important;
+    flex-direction: column;
+    background-color: white;
+    width: 420px;
+    height: 460px;
+    border-radius: 5px;
+}
+
+header {
+    display: flex !important;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+}
+
+inside {
+    flex: 1;
+    width: 100%;
+}
+
+inside > * {
+    display: none;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+inside > *[style*='display: block'] {
+    display: flex !important;
+}
+
+inside > login {
+    display: flex;
+}
+
+topInside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+bottom {
+    height: 60px;
+    background-color: rgb(248, 248, 248);
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 34px !important;
+    color: rgb(65, 59, 59) !important;
+    margin-bottom: 10px !important;
+}
+
+.form-control {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#login_email {
+    margin-top: 5px;
+}
+
+#login_senha {
+    margin-top: 5px;
+}
+
+links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 7px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#botaoLogar {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 100% !important;
+}
+
+#botaoLogar > img {
+    display: none;
+    filter: brightness(0) invert(1);
+}
+
+.form-criar {
+    margin-top: 5px;
+}
+
+.form-nascimento {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+#criar_dia {
+    margin-right: 3px;
+}
+
+#criar_ano {
+    margin-left: 3px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    box-shadow: 0 0 0 30px white inset !important;
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
