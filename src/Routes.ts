@@ -23,8 +23,7 @@ rota.get("/", (req, res) => {
 
 rota.get("/api/logar", (req: RequestSession, res) => {
     API.verificar(req, res, Login.logar, {
-        parametros: ["user", "senha"],
-        // permissoes: []
+        parametros: ["user", "senha"]
     })
 })
 

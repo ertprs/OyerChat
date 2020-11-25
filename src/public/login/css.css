@@ -135,3 +135,15 @@ input:-webkit-autofill:active  {
     box-shadow: 0 0 0 30px white inset !important;
     -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
+
+/*
+REGISTRO
+*/
+
+.swal2-progress-steps > *, .swal2-progress-step {
+    background-color: #add8e6;
+}
+
+.swal2-active {
+    background-color: #2778c4 !important;
+}
